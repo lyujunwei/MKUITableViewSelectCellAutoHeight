@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF2A9E516FD584C00CAB05F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF2A9E416FD584C00CAB05F /* UIKit.framework */; };
+		8AF2A9E716FD584C00CAB05F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF2A9E616FD584C00CAB05F /* Foundation.framework */; };
+		8AF2A9E916FD584C00CAB05F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF2A9E816FD584C00CAB05F /* CoreGraphics.framework */; };
+		8AF2A9EF16FD584C00CAB05F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2A9ED16FD584C00CAB05F /* InfoPlist.strings */; };
+		8AF2A9F116FD584C00CAB05F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2A9F016FD584C00CAB05F /* main.m */; };
+		8AF2A9F516FD584C00CAB05F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2A9F416FD584C00CAB05F /* AppDelegate.m */; };
+		8AF2A9F716FD584C00CAB05F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2A9F616FD584C00CAB05F /* Default.png */; };
+		8AF2A9F916FD584C00CAB05F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2A9F816FD584C00CAB05F /* Default@2x.png */; };
+		8AF2A9FB16FD584C00CAB05F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2A9FA16FD584C00CAB05F /* Default-568h@2x.png */; };
+		8AF2AA0816FD587500CAB05F /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AA0416FD587500CAB05F /* MyTableViewController.m */; };
+		8AF2AA0916FD587500CAB05F /* MyTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AA0616FD587500CAB05F /* MyTableCell.m */; };
+		8AF2AA0A16FD587500CAB05F /* MyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2AA0716FD587500CAB05F /* MyTableCell.xib */; };
+		8AF2AA0F16FD587B00CAB05F /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2AA0B16FD587B00CAB05F /* 001.jpg */; };
+		8AF2AA1016FD587B00CAB05F /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2AA0C16FD587B00CAB05F /* 002.jpg */; };
+		8AF2AA1116FD587B00CAB05F /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2AA0D16FD587B00CAB05F /* 003.jpg */; };
+		8AF2AA1216FD587B00CAB05F /* 004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2AA0E16FD587B00CAB05F /* 004.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8AF2A9E116FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKUITableViewSelectCellAutoHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF2A9E416FD584C00CAB05F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AF2A9E616FD584C00CAB05F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AF2A9E816FD584C00CAB05F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AF2A9EC16FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKUITableViewSelectCellAutoHeight-Info.plist"; sourceTree = "<group>"; };
+		8AF2A9EE16FD584C00CAB05F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AF2A9F016FD584C00CAB05F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AF2A9F216FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKUITableViewSelectCellAutoHeight-Prefix.pch"; sourceTree = "<group>"; };
+		8AF2A9F316FD584C00CAB05F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AF2A9F416FD584C00CAB05F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AF2A9F616FD584C00CAB05F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8AF2A9F816FD584C00CAB05F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8AF2A9FA16FD584C00CAB05F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8AF2AA0316FD587500CAB05F /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		8AF2AA0416FD587500CAB05F /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		8AF2AA0516FD587500CAB05F /* MyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableCell.h; sourceTree = "<group>"; };
+		8AF2AA0616FD587500CAB05F /* MyTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableCell.m; sourceTree = "<group>"; };
+		8AF2AA0716FD587500CAB05F /* MyTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableCell.xib; sourceTree = "<group>"; };
+		8AF2AA0B16FD587B00CAB05F /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		8AF2AA0C16FD587B00CAB05F /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		8AF2AA0D16FD587B00CAB05F /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
+		8AF2AA0E16FD587B00CAB05F /* 004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 004.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AF2A9DE16FD584C00CAB05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF2A9E516FD584C00CAB05F /* UIKit.framework in Frameworks */,
+				8AF2A9E716FD584C00CAB05F /* Foundation.framework in Frameworks */,
+				8AF2A9E916FD584C00CAB05F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AF2A9D816FD584C00CAB05F = {
+			isa = PBXGroup;
+			children = (
+				8AF2AA0216FD586E00CAB05F /* ReSoruce */,
+				8AF2AA0116FD586300CAB05F /* Soruce */,
+				8AF2A9EA16FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight */,
+				8AF2A9E316FD584C00CAB05F /* Frameworks */,
+				8AF2A9E216FD584C00CAB05F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF2A9E216FD584C00CAB05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2A9E116FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF2A9E316FD584C00CAB05F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2A9E416FD584C00CAB05F /* UIKit.framework */,
+				8AF2A9E616FD584C00CAB05F /* Foundation.framework */,
+				8AF2A9E816FD584C00CAB05F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AF2A9EA16FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2A9F316FD584C00CAB05F /* AppDelegate.h */,
+				8AF2A9F416FD584C00CAB05F /* AppDelegate.m */,
+				8AF2A9EB16FD584C00CAB05F /* Supporting Files */,
+			);
+			path = MKUITableViewSelectCellAutoHeight;
+			sourceTree = "<group>";
+		};
+		8AF2A9EB16FD584C00CAB05F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2A9EC16FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight-Info.plist */,
+				8AF2A9ED16FD584C00CAB05F /* InfoPlist.strings */,
+				8AF2A9F016FD584C00CAB05F /* main.m */,
+				8AF2A9F216FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight-Prefix.pch */,
+				8AF2A9F616FD584C00CAB05F /* Default.png */,
+				8AF2A9F816FD584C00CAB05F /* Default@2x.png */,
+				8AF2A9FA16FD584C00CAB05F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AF2AA0116FD586300CAB05F /* Soruce */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2AA0316FD587500CAB05F /* MyTableViewController.h */,
+				8AF2AA0416FD587500CAB05F /* MyTableViewController.m */,
+				8AF2AA0516FD587500CAB05F /* MyTableCell.h */,
+				8AF2AA0616FD587500CAB05F /* MyTableCell.m */,
+				8AF2AA0716FD587500CAB05F /* MyTableCell.xib */,
+			);
+			path = Soruce;
+			sourceTree = "<group>";
+		};
+		8AF2AA0216FD586E00CAB05F /* ReSoruce */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2AA0B16FD587B00CAB05F /* 001.jpg */,
+				8AF2AA0C16FD587B00CAB05F /* 002.jpg */,
+				8AF2AA0D16FD587B00CAB05F /* 003.jpg */,
+				8AF2AA0E16FD587B00CAB05F /* 004.jpg */,
+			);
+			path = ReSoruce;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AF2A9E016FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF2A9FE16FD584C00CAB05F /* Build configuration list for PBXNativeTarget "MKUITableViewSelectCellAutoHeight" */;
+			buildPhases = (
+				8AF2A9DD16FD584C00CAB05F /* Sources */,
+				8AF2A9DE16FD584C00CAB05F /* Frameworks */,
+				8AF2A9DF16FD584C00CAB05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKUITableViewSelectCellAutoHeight;
+			productName = MKUITableViewSelectCellAutoHeight;
+			productReference = 8AF2A9E116FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AF2A9D916FD584C00CAB05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zucknet;
+			};
+			buildConfigurationList = 8AF2A9DC16FD584C00CAB05F /* Build configuration list for PBXProject "MKUITableViewSelectCellAutoHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AF2A9D816FD584C00CAB05F;
+			productRefGroup = 8AF2A9E216FD584C00CAB05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AF2A9E016FD584C00CAB05F /* MKUITableViewSelectCellAutoHeight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AF2A9DF16FD584C00CAB05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF2A9EF16FD584C00CAB05F /* InfoPlist.strings in Resources */,
+				8AF2A9F716FD584C00CAB05F /* Default.png in Resources */,
+				8AF2A9F916FD584C00CAB05F /* Default@2x.png in Resources */,
+				8AF2A9FB16FD584C00CAB05F /* Default-568h@2x.png in Resources */,
+				8AF2AA0A16FD587500CAB05F /* MyTableCell.xib in Resources */,
+				8AF2AA0F16FD587B00CAB05F /* 001.jpg in Resources */,
+				8AF2AA1016FD587B00CAB05F /* 002.jpg in Resources */,
+				8AF2AA1116FD587B00CAB05F /* 003.jpg in Resources */,
+				8AF2AA1216FD587B00CAB05F /* 004.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF2A9DD16FD584C00CAB05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF2A9F116FD584C00CAB05F /* main.m in Sources */,
+				8AF2A9F516FD584C00CAB05F /* AppDelegate.m in Sources */,
+				8AF2AA0816FD587500CAB05F /* MyTableViewController.m in Sources */,
+				8AF2AA0916FD587500CAB05F /* MyTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AF2A9ED16FD584C00CAB05F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF2A9EE16FD584C00CAB05F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AF2A9FC16FD584C00CAB05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AF2A9FD16FD584C00CAB05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AF2A9FF16FD584C00CAB05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKUITableViewSelectCellAutoHeight/MKUITableViewSelectCellAutoHeight-Prefix.pch";
+				INFOPLIST_FILE = "MKUITableViewSelectCellAutoHeight/MKUITableViewSelectCellAutoHeight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AF2AA0016FD584C00CAB05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKUITableViewSelectCellAutoHeight/MKUITableViewSelectCellAutoHeight-Prefix.pch";
+				INFOPLIST_FILE = "MKUITableViewSelectCellAutoHeight/MKUITableViewSelectCellAutoHeight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AF2A9DC16FD584C00CAB05F /* Build configuration list for PBXProject "MKUITableViewSelectCellAutoHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF2A9FC16FD584C00CAB05F /* Debug */,
+				8AF2A9FD16FD584C00CAB05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF2A9FE16FD584C00CAB05F /* Build configuration list for PBXNativeTarget "MKUITableViewSelectCellAutoHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF2A9FF16FD584C00CAB05F /* Debug */,
+				8AF2AA0016FD584C00CAB05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AF2A9D916FD584C00CAB05F /* Project object */;
+}
